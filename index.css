@@ -1,0 +1,31 @@
+p {
+    background-color: aquamarine;
+    padding: 30px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: whitesmoke;
+    display: block;
+    background-color: plum ;
+    font-family: "Monospace";
+    margin: 50px;
+}
+
+
+#id2{
+    background-color: lightpink;
+    text-align: center;
+}
+    
+ #best {
+    width: 80%;
+    height: 60px;
+    margin-left: 130px;
+    background-color: lightpink;
+    text-align: center;
+    position: center;
+    border-style: solid;
+    border-color: white;
+ }   
+#id1{background-color: lightpink;}
+h1 {text-align: center;}
+body {background-image: url(./drvo.jpg);} 

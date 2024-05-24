@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form {
+        background-color: rgba(249, 144, 144, 0.7);
+        width: 60%;
+        margin:auto;
+        padding: 50px;
+        font-size: larger;
+        font:bolder;
+        
+    }
+input {display: inline-block;
+}
+body {padding: 40px;background-image:url(./slika\ 11.jpeg);
+    font-size: larger;
+    background-repeat: no-repeat;
+        background-size: 100% 100%;
+        font-size: larger;
+        font-style: bold;
+        font-family: arial;
+}
+
+input {margin-left: 20%; width: 60%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+background-color: #EBD4CB;}
+input[type=radio]{
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+    position:static;
+    background-color: #EBD4CB;
+    margin: 5px;
+    width: 10px;
+
+}
+table {
+    border-spacing: 7px;
+}
+
+
+</style>
+<body>
+    <form method="get">
+        Ime i prezime
+        <br>
+        <input type="text" name="Ime i prezime" placeholder="Unesi ime..." required>
+        <br>
+        Na kom fakultetu ili višoj školi studirate?
+        <input type="text" name="Na kom fakultetu ili višoj školi studirate?" placeholder="Unesi naziv..." required>
+        <br>
+        <label>Godina studija</label><br>
+        <table>
+            <tr>
+                <td><input type="radio" name=" godina studija" id="1 godina"> 1 godina </td>
+                <td><input type="radio" name=" godina studija" id="2 godina"> 2 godina </td>
+            </tr>
+            <tr>
+                <td><input type="radio" name=" godina studija" id="1 godina"> 3 godina </td>
+                <td><input type="radio" name=" godina studija" id="2 godina"> 4 godina </td>
+            </tr>
+            <tr>
+                <td><input type="radio" name=" godina studija" id="1 godina"> master </td>
+                <td><input type="radio" name=" godina studija" id="2 godina"> doktorske </td>
+            </tr>
+
+        </table> 
+        <br>
+Koliko imate godina?
+         <input type="text" name="Koliko imate godina?">
+           <select>
+            <option>16-18</option>
+            <option>19-23</option>
+            <option>24-26</option>
+            <option>27-33</option>
+            </select>
+
+<input type="submit">
+
+    </form>
+    <a href="./index.html">Nazad</a>
+
+</body>
+</html>
